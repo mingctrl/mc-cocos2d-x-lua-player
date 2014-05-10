@@ -132,3 +132,5 @@ xcuserdata
 # UNKNOWN: recommended by others, but I can't discover what these files are
 #
 # ...none. Everything is now explained.
+
+/frameworks/runtime-src/proj.ios_mac/mc-cocos2d-x-lua-player.xcodeproj/project.xcworkspace/xcshareddata/mc-cocos2d-x-lua-player.xccheckout
