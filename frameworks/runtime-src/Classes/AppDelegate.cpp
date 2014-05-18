@@ -28,8 +28,13 @@ bool AppDelegate::applicationDidFinishLaunching()
 		director->setOpenGLView(glview);
 	}
 
-    glview->setDesignResolutionSize(320, 480, ResolutionPolicy::NO_BORDER);
+    glview->setDesignResolutionSize(640, 960, ResolutionPolicy::FIXED_WIDTH);
 
+//    printf("projectConfig.getFrameScale()--%f",m_projectConfig.getFrameScale());
+    Director::getInstance()->getOpenGLView()->setFrameZoomFactor(m_projectConfig.getFrameScale());
+    
+    
+    
     // turn on display FPS
     director->setDisplayStats(true);
 

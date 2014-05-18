@@ -43,7 +43,7 @@
     [self.window becomeFirstResponder];
     [self.window makeKeyAndOrderFront:self];
     [self.window setAcceptsMouseMovedEvents:NO];
-    [self.window setFrameOrigin:CGPointMake(200, 800)];
+    [self.window setFrameOrigin:CGPointMake(1000, 800)];
 }
 
 - (BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication*)theApplication
