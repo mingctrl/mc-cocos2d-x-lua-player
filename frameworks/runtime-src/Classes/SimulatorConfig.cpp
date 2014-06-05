@@ -10,7 +10,7 @@ void ProjectConfig::setProjectDir(const string projectDir)
 {
     m_projectDir = projectDir;
     string scriptPath = projectDir;
-    m_scriptFile = scriptPath.append("/src/main.lua");
+    m_scriptFile = scriptPath.append("/main.lua");
 }
 
 const string ProjectConfig::getScriptFile(void)

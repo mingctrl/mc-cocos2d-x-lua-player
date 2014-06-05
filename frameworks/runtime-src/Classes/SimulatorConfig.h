@@ -34,7 +34,7 @@ class ProjectConfig
 {
 public:
     ProjectConfig(void)
-    : m_scriptFile("./src/main.lua")
+    : m_scriptFile("./data/main.lua")
     , m_frameSize(640, 960)
     , m_frameScale(1.0f)
 
